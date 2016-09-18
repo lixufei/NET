@@ -1,0 +1,26 @@
+{
+  "name": "NET",
+  "version": "0.0.0",
+  "description": "integrate almost all what I have learned",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lixufei/NET.git"
+  },
+  "author": "xfli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lixufei/NET.git/issues"
+  },
+  "homepage": "https://github.com/lixufei/NET.git",
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "chai": "2.3.0"
+  }
+}
