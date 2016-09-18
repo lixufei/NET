@@ -8,10 +8,11 @@ mono example.exe
 
 
 `install plugins
-    npm install --save-dev gulp
-    npm install gulp gulp-mocha
-    npm install chai
-    npm install gulp gulp-mocha gulp-util
+    npm install gulp --save-dev
+    npm install gulp gulp-mocha --save-dev
+    npm install chai --save-dev
+    npm install gulp gulp-mocha gulp-util --save-dev
+    npm install should --save-dev
 
 
 `撤回add的file

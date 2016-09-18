@@ -20,7 +20,10 @@
   },
   "homepage": "https://github.com/lixufei/NET.git",
   "devDependencies": {
-    "gulp": "3.9.1",
-    "chai": "2.3.0"
+    "chai": "^2.3.0",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^3.0.1",
+    "gulp-util": "^3.0.7",
+    "should": "^11.1.0"
   }
 }
