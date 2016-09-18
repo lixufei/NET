@@ -15,7 +15,12 @@ mono example.exe
     npm install should --save-dev
     npm install angular --save-dev
     npm install gulp-sass --save-dev
+    npm install font-awesome --save-dev      #font-awesome暂时还不会用
+    npm install bootstrap@3 --save-dev
 
 
 `撤回add的file
     git reset HEAD <file>
+
+`html
+    <meta charset="UTF-8">    #不能删掉,否则浏览器不能识别中文

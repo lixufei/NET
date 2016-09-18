@@ -21,7 +21,9 @@
   "homepage": "https://github.com/lixufei/NET.git",
   "devDependencies": {
     "angular": "^1.5.8",
+    "bootstrap": "^3.3.7",
     "chai": "^2.3.0",
+    "font-awesome": "^4.6.3",
     "gulp": "^3.9.1",
     "gulp-mocha": "^3.0.1",
     "gulp-sass": "^2.3.2",
