@@ -14,6 +14,7 @@ mono example.exe
     npm install gulp gulp-mocha gulp-util --save-dev
     npm install should --save-dev
     npm install angular --save-dev
+    npm install gulp-sass --save-dev
 
 
 `撤回add的file
