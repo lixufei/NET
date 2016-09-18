@@ -12,6 +12,10 @@ gulp.task('default', function() {
         }));
 });
 
+gulp.task('mocha', function () {
+   return "this is mocha.."; 
+});
+
 gulp.task('watch-mocha', function() {
-    // gulp.watch(['lib/**', 'test/**'], ['mocha']);
+    gulp.watch(['lib/**', 'test/**'], ['mocha']);
 });

@@ -13,6 +13,7 @@ mono example.exe
     npm install chai --save-dev
     npm install gulp gulp-mocha gulp-util --save-dev
     npm install should --save-dev
+    npm install angular --save-dev
 
 
 `撤回add的file

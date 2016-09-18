@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="todoApp">
+<head>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="resources/public/javascript/todo.js"></script>
+    <link rel="stylesheet" href="resources/public/css/todo.css">
+</head>
+<body>
+    <input type="text" ng-model="name">
+    <h2>Hello {{name}}!</h2>
+<div ng-controller="TodoListControlelr as todoList">
+    <!--function needs brackets, remember!-->
+    <span> fsadfsa {{todoList.remaining()}} in {{todoList.todos.length}} are ramaining </span>
+    <a href="" ng-click="todoList.archive()">archive</a>
+
+    <li ng-repeat="todo in todoList.todos">
+        <label class="checkbox">
+            <input type="checkbox" ng-model="todo.done">
+            <span class="checkbox-{{todo.done}}">{{todo.text}}</span>
+        </label>
+    </li>
+
+    <form ng-submit="todoList.addTodo()">
+        <input type="text" ng-model="todoList.todoText" size="30" placeholder="add a text">
+        <input type="submit" value="add">
+    </form>
+</div>
+
+</body>
+</html>
