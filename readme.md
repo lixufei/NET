@@ -24,3 +24,9 @@ mono example.exe
 
 `html
     <meta charset="UTF-8">    #不能删掉,否则浏览器不能识别中文
+
+`跑前端单元测试:
+    run 'gulp mocha:unit'   #task in gulpfile.js
+
+`跑后端的单元测试java:
+    run './gradlew test'   #注意目录结构
